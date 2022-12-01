@@ -1,3 +1,4 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -6,33 +7,35 @@
 
 body {
   /* // background-color: #777; */
-  /* font-family: "Amatic SC", cursive; */
-  font-family: "estedad", cursive;
+  font-family: "Amatic SC", cursive;
   color: #fff;
   font-size: 3rem;
   text-transform: uppercase;
+  /* overflow: hidden; */
 }
 
 .panel1 {
-  background-image: url("imgs/wafaa/photo3.JPG");
+  background-image: url("imgs/first.jpg");
 }
 .panel2 {
-  background-image: url("imgs/wafaa/photo2.JPG");
+  background-image: url("imgs/second.jpg");
 }
 .panel3 {
-  background-image: url("imgs/wafaa/photo1.JPG");
+  background-image: url("imgs/third.jpg");
 }
 .panel4 {
-  background-image: url("imgs/wafaa/photo4.JPG");
+  background-image: url("imgs/fourth.jpg");
 }
 .panel5 {
-  background-image: url("imgs/wafaa/photo5.JPG");
+  background-image: url("imgs/fifth.jpg");
 }
 
 .panels {
+    border: 2px solid red;
   height: 100vh;
   display: flex;
   gap: 3px;
+  overflow-y: hidden;
 }
 
 .panels > * {
