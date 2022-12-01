@@ -6,12 +6,10 @@
 }
 
 body {
-  /* // background-color: #777; */
   font-family: "Amatic SC", cursive;
   color: #fff;
   font-size: 3rem;
   text-transform: uppercase;
-  /* overflow: hidden; */
 }
 
 .panel1 {
@@ -31,7 +29,6 @@ body {
 }
 
 .panels {
-    border: 2px solid red;
   height: 100vh;
   display: flex;
   gap: 3px;
